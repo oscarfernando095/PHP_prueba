@@ -2,30 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAC-Movies</title>
+    <link rel="stylesheet" href="/Practico/CSS/style.css" media="">
 </head>
 <body>
-    <h1 class="animate__animated animate__bounce">An animated element</h1>
-    <h1 class="animate__animated animate__wobble">Iron Maiden</h1>
-    <h1>Prueba Git</h1>
-    <h2>Hola</h2>
-    <h3>No me gusto el cambio::🤬</h3>
-    <h2>hola cambio dsde mendoza</h2>
-    <ol>
-        <li>UNO</li>
-        <li>DOS</li>
-        <li>TRES</li>
-    </ol>
-    <label for="name">
-        Nombre: 
-        <input type="text">
-    </label>
-    <div>
-        <h2 class="animate__animated animate__hinge">Iron Maiden</h2>
-        <h3>La mejor banda de Rock</h3>
-    </div>
+    <header class="header">
+        <nav>
+            <span id="logo"><a href="">CAC-Movies</a></span>
+            <ul>
+                <li><a href="./pagina/inicarSec.html">Iniciar Sesion</a></li>
+                <li><a href="./pagina/registro.html">Registrarse</a></li>
+                <li><a href="./pagina/api.html">Api</a></li>
+                <li><a href="#tendencia">Tendencias</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="titulo">
+            
+            <h1 id="tit">Peliculas y series ilimitadas</h1>
+            <h1 id="tit">en un solo lugar</h1>
+            <h2 id="tit1">Disfruta donde quieras.</h2>
+            <h2 id="tit1">Cancela en cualquier momento.</h2>
+            <button id="boton" type="button">Registrate</button>
+        </section>
+        <section id="buscador">
+            <h2>¿Que estas buscando para ver?</h2>
+            <div id="buscar">
+                <input type="text" value="buscar...">
+                <button>Buscar</button> 
+            </div>
+            
+            
+        </section>
+        <hr>
+        <section id="tendencia"  class="pelis">
+            <h3>Las tendencias de hoy</h3>
+            <div><img src="./IMG/peli_1.jpg" alt=""></div>
+            <div><img src="./IMG/peli_2.jpg" alt=""></div>
+            <div><img src="./IMG/peli_3.jpg" alt=""></div>
+            <div><img src="./IMG/peli_4.jpg" alt=""></div>
+            <div><img src="./IMG/et.png" alt=""></div>
+            <div><img src="./IMG/fantasma.png" alt=""></div>
+            <div><img src="./IMG/jaws.png" alt=""></div>
+            <div><img src="./IMG/malefica.png" alt=""></div><br>
+            <div><img src="./IMG/peli_6.jpg" alt=""></div>
+            <div><img src="./IMG/peli_7.jpg" alt=""></div>
+            <div><img src="./IMG/peli_8.jpg" alt=""></div>
+            <div><img src="./IMG/peli_9.jpg" alt=""></div><br>
+            <div >
+                <button id="boton" type="button">Anterior</button>
+                <button id="boton" type="button">Siguiente</button>
+            </div>
+            
+            
+            
+        </section>
+        <hr>
+        <section class="aclamada">
+            <h3>Las mas aclamadas</h3>
+            <div><img src="./IMG/aquaman.png" alt=""></div>
+            <div><img src="./IMG/thor.png" alt=""></div>
+            <div><img src="./IMG/septimo.png" alt=""></div>
+            <div><img src="./IMG/Holloween.png" alt=""></div><br>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="">Terminos y condiciones</a></li>
+            <li><a href="">Preguntas frecuentes</a></li>
+            <li><a href="">Ayuda</a></li>
+            <li><a href="">Administrador Peliculas</a></li>
+        </ul>
+    </footer>
     
+        
+    </div>
 </body>
 </html>
