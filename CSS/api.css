@@ -1,0 +1,44 @@
+body{
+    background-color: #9f3647;
+}
+
+#rick{
+    color: aliceblue;
+    
+    text-align: center;
+    
+    
+    font-size: 30px;
+    
+}
+
+#personajes{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    margin: 25px;
+}
+
+#personajes div{
+   
+    
+}
+
+#personajes div img{
+    float: left;
+    border-radius: 20%;
+}
+
+h4{
+    color: aliceblue;
+    position: relative;
+    margin-left: 55px;
+}
+h3{
+    color: aliceblue;
+    position: relative;
+    margin-left: 55px;
+}
+/*img{
+    display: inline-block;
+}*/
